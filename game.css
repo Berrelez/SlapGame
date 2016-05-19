@@ -1,0 +1,124 @@
+body {
+	padding-top: 90px;
+	padding-bottom: z0px;
+	background-color: #000;
+	color: #fff;
+}
+
+@font-face{
+	font-family: 'doom';
+	src: url('AmazDooMLeft.ttf');
+}
+
+.game-panel{
+	max-width: 600px;
+	padding: 15px;
+	margin: 0 auto;	
+}
+
+.img{
+	height: 250px;
+	width: 250px;
+	margin-left: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.player-bar{
+	font-family: doom;
+	font-size: 3.5em;
+}
+
+.progress{
+	height: 20px;
+}
+
+.pic{
+	width: 190px;
+	height: 250px;
+	background-image:url('doom.png')
+}
+
+/* Health Status */
+.excelent {
+	background-position: -192px 0px;
+}
+
+.good {
+	background-position: -767px 0px;
+}
+
+.poor{
+	background-position: -192px -244px;
+}
+
+.bad{
+	background-position: -768px -244px;
+}
+
+.critical{
+	background-position: -192px -479px;
+}
+
+.dying{
+	background-position: 0px -966px;
+}
+
+.dead{
+	background-position: -479px -1216px;
+}
+
+/* Hit Status */
+.hit-excelent{
+	background-position: -577px -480px;
+}
+
+.hit-good{
+	background-position: -963px -480px;
+}
+
+.hit-poor{
+	background-position: -771px -726px;
+}
+
+.hit-bad{
+	background-position: -963px -726px;
+}
+
+.hit-critical{
+	background-position: -963px -966px;
+}
+
+.hit-dying{
+	background-position: -192px -726px;
+}
+
+.hit-dead{
+	background-position: -963px -726px;
+}
+
+#health-msg{
+	margin-top: 25px;
+	font-family: doom;
+	font-size: 4em;
+}
+
+.btn-text{
+	font-family: doom;
+	font-size: 3em;
+	color:#000;
+}
+
+.btn.btn-default{
+	color: #fff;
+	background-color: #000;
+	background-image: none;
+	border:none;
+}
+
+.btn.btn-default:active{
+	color: #fff;
+	background-color: #000;
+	background-image: none;
+	border:red;
+}
